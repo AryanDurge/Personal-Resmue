@@ -16,7 +16,7 @@ html::-webkit-scrollbar{
 }
 
 body{
-    background-color:black;
+/*     background-color:black; */
     background-image: url(prac3.jpg);
     background-repeat: no-repeat;
     background-size: cover;

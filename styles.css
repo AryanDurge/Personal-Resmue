@@ -1,0 +1,480 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+/*****************  CLASS **********************/
+*{
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+html::-webkit-scrollbar{
+    display:none;
+}
+
+body{
+    background-image: url(../Images/prac3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;  
+}
+
+
+h2{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size:30px;
+}
+
+.hero{ 
+    height: 120vh; 
+    width: 100%;
+    /* background-image: url(../Images/prac3.jpg); 
+    background-size: cover;
+    background-position: center;   */
+}
+
+/* .hero-style{
+    background-image: url('path/to/image.jpg');
+  } */
+
+.herop1{
+    /* this font is comfortaa */
+    font-family: 'Pacifico', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.logo{
+    color:white;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    cursor: pointer;
+    padding-top: 45px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin:0 70px;
+}
+
+span{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    color:#EB455F;
+} 
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 13px;
+} 
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size:13px;
+    line-height:3;
+    letter-spacing:0.5px;
+}
+
+/* #313030 */
+
+nav ul li a:hover
+{
+    color:#EB455F;
+    transition: .4s;
+    box-shadow: 0px 0px 20px rgb(240, 234, 234);
+    outline: none;
+    border:none;
+    border-radius: 30px;
+    background-color: #2a2525;
+    padding:4px;
+} 
+
+.btn{
+    background-color: #EB455F;
+    text-decoration: none;
+    border-radius: 30px;
+    color:white;
+    border:2px transparent #EB455F;
+    padding: 10px 17px; 
+    cursor:pointer;
+    transition: transform .5s;
+} 
+
+.btn:hover{
+    transform:scale(1.2);
+} 
+
+ .content{
+    position:absolute;
+    top:74%;
+    left:8%;
+    transform: translateY(-50%);
+} 
+
+h1{
+    color:white;
+    margin: 20px 0px 20px;
+    font-size:55px;
+} 
+
+h3{
+    color:white;
+    font-size: 32px;
+    margin-bottom: 50px;
+} 
+
+ h4{
+    color:#FFC6D3;
+    line-height:2;
+    font-size:20px;
+} 
+
+.newsletter{
+    /* margin-top:30px; */
+    display:inline-block;
+    /* width:250px;
+    height:40px; */
+}
+
+.newsletter form input:first-child{
+    /* display:inline-block; */
+    padding:7px 45px;
+    padding-left:5px;
+    border:2px solid #EB455F; 
+    margin:7px;
+    width:259px;
+    /* outline:none;
+    border:none; */
+    border-radius: 20px;    
+}
+
+.newsletter form input:last-child{
+    position:absolute;
+    cursor: pointer;
+    /* display:inline-block; */
+    outline:none;
+    border:none;
+    padding:7px 20px;
+    border-radius: 20px;
+    background-color: #EB455F;
+    color:white; 
+    margin:9px;   
+    box-shadow: 0px 0px 35px rgba(255, 248, 248, 0.5) ,0px 0px 18px #EB455F;
+
+}
+
+.Form1
+{
+    display: flex;
+    justify-content: end;
+}
+
+/* ABOUT SECTION  */
+
+.main
+{
+    margin-top:102vh;
+    margin-left:60px;
+    padding-top:90px;
+    padding-bottom: 80px;
+    /* height: 960px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-image: url(../Images/WW.png); */
+}
+
+.about{
+    /* width:100%; */
+    /* padding:10px;   #191919 */
+    background-color: #719FB0;
+}
+
+.about img{
+    margin-top:40px;
+    padding-left:20px;
+    height:391px;
+    width:286px;
+}
+
+.about-text{
+    width:400px;
+}
+
+/* bhai   #DFDFDE */
+
+.about-text h2{
+    font-size: 23px;
+    margin-bottom: 9px;
+    color:#DFDFDE;
+    font-size:45px;
+    text-transform:capitalize;
+    margin-bottom:30px;
+}
+
+.about-text h5{
+    color:#DFDFDE;
+    letter-spacing: 2px;
+    font-size: 33px;
+    padding-top:10px;
+    margin-bottom: 20px;
+    text-transform:capitalize;
+}
+
+.about-text p{
+    color:#181D31;
+    font-size: 13px;
+    letter-spacing:0.5px;
+    line-height:23px;
+    font-size:14px; 
+}
+
+/* #3C625    #3C6255 */
+
+.about_color{
+    color: #A62349;
+}
+
+.about_pt1
+{
+    color: #243763;
+}
+
+.dev{
+    color:#B1D7B4;
+}
+
+.button{
+    margin-top: 30px;
+    background: #EB455F;
+    COLOR:white;
+    text-decoration: none;
+    border:1.5px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    padding:10px;
+    /* transition: transform 0.4s; */
+}
+
+.button:hover
+{
+   /* transform:scale(1.2); */
+   background-color:transparent;
+   border:2px solid #EB455F;
+}
+/*****************  ID **********************/
+
+/* SERVICE SECTION */
+
+.service
+{
+    height: 160vh;
+}
+
+
+.button12{
+    border:2px solid black;
+    border-radius:20px;
+    background-color: #EB455F;
+    padding:10px;
+    text-decoration: none;
+    /* margin-top:20px; */
+    color:black;
+    cursor:pointer;
+    transition:transform 0.4ms;
+}
+
+.button12:hover
+{
+    transform:scale(1.2);
+}
+
+.service{
+    BACKGROUND: #101010;
+    width:100%;
+    padding:100px 0px;
+}
+
+.title h5{
+    color:white;
+    font-size:75px;
+    width:1030px;
+    margin:40px 89px;
+    /* margin:30px 50px; */
+    text-align:center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width:40%;
+    padding:20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin:15px;
+    overflow:hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display:block;
+    text-align: center;
+    margin:25px 0px;
+    color:#f9004d;
+}
+
+.card h5{
+    color:white;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.pra p{
+    color:#fcfc;
+    font-size:13px;
+    line-height:27px;
+    margin-bottom:23px;
+}
+
+.card .button1
+{
+    margin-top: 30px;
+    background: #EB455F;
+    color:white;
+    text-decoration: none;
+    border:1.5px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    padding:10px;
+    margin:30px;
+    transition: 0.4s ease;
+    box-shadow: 0px 0px 10;
+}
+
+.card .button1:hover{
+    /* transform:scale(2.2);  not working  */
+    background-color: #f86f81;
+    border:2px solid transparent;
+    cursor:pointer;
+    box-shadow: 0px 0px 20px #EB455F;
+}
+
+/* contact me */
+
+.contact-me{
+    width:100%;
+    height:250px;
+    background:#191919;
+    
+    /* display:flex;
+    align-items:center;
+    justify-content:center; */
+}
+
+.contact-me p{
+    color:rgb(231, 228, 228);
+    font-size:30px;
+    padding-top:80px;
+    font-weight: bold;
+    margin-bottom:40px;
+}
+
+.contact-me .button1{
+    display: inline;
+    color:aliceblue;
+    margin:10px 10px 40px 544px;
+    border: 2px solid transparent;
+    background-color: #f9004d;
+    border-radius: 20px;
+    text-decoration: none;
+    padding:7px 20px;
+    transition:transform 0.4s;
+}
+
+.contact-me .button1:hover{
+    background-color: #d6283f;
+    box-shadow:0 0 10px rgb(240, 234, 234);
+    transform: scalex(2.2);
+    transition: 0.4s ease;
+}
+
+footer{
+    height:380px;
+    position:relative;
+    width:100%;
+    background-color: #101010;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    color:white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2)
+{
+    color:white;
+    font-size: 17px;
+    width:500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social
+{
+    display:flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(183, 63, 63);
+    border-radius: 50%;
+    margin:22px 10px;
+    box-shadow: 0px 0px 10px rgb(182, 167, 167);
+    color:white;
+    text-decoration: none;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+    transition: 0.4s ease;
+}
+
+.end{
+    padding-top:35px;
+    color:#f9004d;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+
+

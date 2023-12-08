@@ -34,7 +34,7 @@ I work with a variety of technologies and frameworks, including:
 
 - Front-end: HTML, CSS, JavaScript
 - Back-end: Node.js, Express.js, Python, Django
-- Database: MongoDB, PostgreSQL
+- Database: MongoDB
 
 
 ## 🌐 Connect with Me

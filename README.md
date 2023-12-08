@@ -6,7 +6,7 @@ I'm Aryan Durge, a passionate WebDeveloper with a keen interest in filed of WebD
 
 ## 🚀 Featured Projects
 
-### Collge Placement Portal Link to Project 1)
+### College Placement Portal Link to Project 1)
 
 The College Placement Portal is a web-based application designed to bridge the gap between students and potential employers. It aims to streamline the recruitment process by providing a centralized platform for managing job postings, applications, and interviews.
 
